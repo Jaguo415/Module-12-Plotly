@@ -21,7 +21,7 @@ function buildGauge(wfreq){
             type: "scatter",
             x: [0],
             y: [0],
-            marker: {size 12, color: "850000"},
+            marker: {size: 12, color: "850000"},
             showlegend: false,
             name: "Freq",
             text: level,
@@ -30,7 +30,7 @@ function buildGauge(wfreq){
 {
     values:[50 / 9, 50 / 9, 50 / 9, 50 / 9, 50 / 9, 50 / 9, 50 / 9, 50 / 9, 50 / 9, 50 ],
     rotation: 90,
-    text: ["8-9","7-8","6-7","5-6","4-5","3-4","2-3","1-2","0-1" " "],
+    text: ["8-9","7-8","6-7","5-6","4-5","3-4","2-3","1-2","0-1", " "],
     textinfo: "text",
     textposition: "inside",
     markers: {
@@ -48,7 +48,7 @@ function buildGauge(wfreq){
         ],
 
          },
-         labels:["8-9","7-8","6-7","5-6","4-5","3-4","2-3","1-2","0-1" " "],
+         labels:["8-9","7-8","6-7","5-6","4-5","3-4","2-3","1-2","0-1", " "],
          hoverinfo: "label",
          hole: 0.5,
          type: "pie",
