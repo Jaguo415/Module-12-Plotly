@@ -130,4 +130,3 @@ function optionChanged(newSample){
 
 // Initializae the Dashboard
 init()
-

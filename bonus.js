@@ -33,7 +33,7 @@ function buildGauge(wfreq){
     text: ["8-9","7-8","6-7","5-6","4-5","3-4","2-3","1-2","0-1", " "],
     textinfo: "text",
     textposition: "inside",
-    markers: {
+    marker: {
         colors:[
             "rgba(0,105,11,.5)",
             "rgba(10,120,22,.5)",
@@ -57,7 +57,7 @@ function buildGauge(wfreq){
     ];
 
     var layout = {
-        shape: [
+        shapes: [
             {
                 type: "path",
                 path:path,
